@@ -104,7 +104,7 @@ def main(urls):
             print(f"Failed to fetch the webpage. Status code: {response.status_code}")
         
         print("Done URL: ",url)
-    
+    print("\nLength of data: ",len(data))
     # create a json file and load the data 
     createJason(data)
     
